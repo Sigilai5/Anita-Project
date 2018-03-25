@@ -1,0 +1,177 @@
+.top{
+    background-image: url("../img/assets/backgrounds/landing.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 636px;
+}
+
+.para{
+    font-size: 22px;
+    color:white;
+}
+.logo{
+    text-align: center;
+
+
+}
+.breakfast{
+    float: right;
+}
+.lunch{
+    float: right;
+}
+.dinner{
+    float: right;
+}
+.breakfast {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+
+.image:hover{
+    color: black;
+    opacity: 0.7;
+}
+.breakfast:hover{
+    color: black;
+}
+#table{
+    padding-top: 0px;
+}
+#happy{
+    background-color:grey;
+    width: 450px;
+    height: 105px;
+    padding-left: 120px;
+}
+
+#party{
+    background-color:#F15A29;
+    width: 450px;
+    height: 105px;
+    padding-left: 120px;
+}
+
+.button {
+    background-color: #F15A29; /* Orange */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button1 {
+    background-color: white;
+    color: #F15A29;
+    border: 2px solid #F15A29;
+    width: 300px;
+
+}
+.middle{
+    background-image: url("../img/assets/backgrounds/foodsBg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 536px;
+}
+.mid{
+    width: 900px;
+    height: 510px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.beef{
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.bottoms{
+    background-image: url("../img/assets/backgrounds/subscribe.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 336px;
+}
+.vl{
+    border-left: 1px solid grey;
+    height: 250px;
+}
+.content{
+    text-align: center;
+    padding-top: 100px;
+}
+.content-p{
+    font-size: 20px;
+    color: white;
+}
+.btn{
+    background-color:#F15A29;
+    color: white;
+}
+.place{
+    width: 300px;
+    opacity: 0.2;
+
+}
+.lowest{
+    background-color: #F15A29;
+    height: 250px;
+}
+.content-lowest{
+    text-align: center;
+    padding-top: 40px;
+}
+.lowest-p{
+    color: white;
+    font-size: 25px;
+}
+.footer-p{
+    color: white;
+    font-size: 20px;
+}
+.footer{
+    color: white;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color: white;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+.drinks{
+    text-align: right;
+}

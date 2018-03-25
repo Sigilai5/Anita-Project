@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anita's Kitchen</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+</head>
+<body>
+<div class="top">
+    <br><br><br><br><br><br>
+    <div class="logo">
+    <img src="img/assets/logoBig.png" alt="Logo">
+        <p span class="para">We Provide The Best Food<br> At The <strong>Right Price.</strong></p>
+    </div>
+</div>
+<!-- create the happy hour -->
+<div class="col-lg-3">
+
+
+    <table id="table">
+        <tr>
+            <td id="happy">Happy Hour</td>
+
+        </tr>
+        <td id="party">Party Time</td>
+
+    </table>
+</div>
+<div class="col-lg-3">
+    <div class="image" style="image-size:100%;">
+        <img src="img\assets\foodtop\breakfast.jpg">
+        <p class="breakfast"><em>Breakfast</em></p>
+    </div>
+</div>
+<div class="col-lg-3">
+    <div class="image">
+        <img src="img\assets\foodtop\lunch.jpg">
+        <p class="breakfast"><em>Lunch</em></p>
+    </div>
+</div>
+<div class="col-lg-3">
+    <div class="image">
+        <img src="img\assets\foodtop\dinner.jpg">
+        <p class="breakfast"><em>Dinner</em></p>
+    </div>
+</div>
+</div><!-- end container --><br><br><br><br><br><br>
+<div class="container">
+    <div class="col-md-6">
+    <div class="foods">
+    <img src="img/assets/fastFood1.jpg"><br>
+    <img src="img/assets/fastFood2.jpg">
+    </div>
+    </div>
+
+    <div class="col-md-6">
+        <h1>Fast Food</h1>
+        <h4>You'll love our delicious fast food</h4>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <br>
+
+        <button class="button button1" >VIEW GALLERY</button>
+    </div>
+<br><br><br><br>
+    <div class="col-md-6">
+        <br><br><br><br>
+            &nbsp;
+        <h1 class="drinks">Drinks</h1>
+
+        <h4 class="drinks">We also produce delicious drinks</h4>
+
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
+            porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+
+        <button class="button button1" style="float: right;" >VIEW GALLERY</button>
+    </div>
+    <div class="col-md-6">
+        <br><br><br><br>
+        <img src="img/assets/drink1.jpg">
+        <img src="img/assets/drink2.jpg">
+    </div>
+</div>
+<br><br><br><br>
+<div class="middle">
+    <div class="mid">
+    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Fast Food</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')" >Drinks</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Chicken</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">Rice</button>
+
+    <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <img src="img/assets/fastfood/chickenBurger.jpg">
+        <img class="beef" src="img/assets/fastfood/beefBurger.jpg">
+        <img src="img/assets/fastfood/chickenPizza.jpg">
+    </div>
+
+    <div id="News" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    </div>
+
+    <script>
+        function openPage(pageName,elmnt,color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</div>
+</div>
+<div class="container">
+    <div class="container-fluid" id="customers">
+        <div class="col-lg-8">
+            <h1 style="color: #F15A29;">Our happy customers</h1>
+            <h3>George Richard</h3>
+            <p class="recommend">Great food! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them :)</p><br>
+            <span id="custs" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <img id="picscusts" src="img\assets\customers\p1.png">
+            <img id="picscusts" src="img\assets\customers\p2.png">
+            <img id="picscusts" src="img\assets\customers\p3.png">
+            <span id="custs" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </div>
+        <div class="col-lg-1"> <br><div class="vl"></div></div>
+        <div class="col-lg-3">
+            <h1 style="color: #F15A29;">About Menu</h1>
+            <p>We are a little team of 7 members.Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="bottoms">
+    <div class="content">
+    <p class="content-p">Get our daily food items delivered to your mail</p><br>
+        <input type="text" placeholder="Your email" class="place">
+        <button type="submit" class="btn">Subscribe</button>
+    </div>
+</div>
+<div class="lowest">
+    <div class="content-lowest">
+        <img src="img/assets/footerlogos/logo_white.png">&nbsp;&nbsp;<span class="lowest-p">MENU</span>
+        <br><br><p class="footer-p">That's What We Are</p><br>
+        <img src="img/assets/footerlogos/facebook.png">
+        <img src="img/assets/footerlogos/twitter.png">
+        <img src="img/assets/footerlogos/pinterest.png"><br><br>
+        <footer style="color: whitesmoke">&copy;2016 Menu Restaurant</footer>
+    </div>
+</div>
+
+</body>
+</html>
