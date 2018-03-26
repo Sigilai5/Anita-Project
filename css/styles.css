@@ -12,7 +12,6 @@
 .logo{
     text-align: center;
 
-
 }
 .breakfast{
     float: right;
@@ -42,20 +41,29 @@
 #table{
     padding-top: 0px;
 }
-#happy{
-    background-color:grey;
-    width: 450px;
+
+.table1{
+    background-color: #e0ebeb;
     height: 105px;
-    padding-left: 120px;
+    width: 350px;
 }
 
-#party{
-    background-color:#F15A29;
-    width: 450px;
+.table2{
+    background-color: #F15A29;
     height: 105px;
-    padding-left: 120px;
+    width: 350px;
 }
-
+.happy-hour{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+}
+.party-time{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+    color: white;
+}
 .button {
     background-color: #F15A29; /* Orange */
     border: none;
@@ -175,3 +183,5 @@
 .drinks{
     text-align: right;
 }
+
+

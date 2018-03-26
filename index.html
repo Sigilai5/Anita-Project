@@ -14,7 +14,6 @@
 </head>
 <body>
 <div class="top">
-    
     <br><br><br><br><br><br>
     <div class="logo">
     <img src="img/assets/logoBig.png" alt="Logo">
@@ -26,11 +25,13 @@
 
 
     <table id="table">
-        <tr>
-            <td id="happy">Happy Hour</td>
+        <div class="table1">
+      <p span class="happy-hour">Happy Hour</p>
+        </div>
 
-        </tr>
-        <td id="party">Party Time</td>
+        <div class="table2">
+            <p span class="party-time">Party Time</p>
+        </div>
 
     </table>
 </div>
@@ -53,6 +54,7 @@
     </div>
 </div>
 </div><!-- end container --><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 <div class="container">
     <div class="col-md-6">
     <div class="foods">
@@ -60,7 +62,6 @@
     <img src="img/assets/fastFood2.jpg">
     </div>
     </div>
-
     <div class="col-md-6">
         <h1>Fast Food</h1>
         <h4>You'll love our delicious fast food</h4>
@@ -115,19 +116,20 @@
     </div>
 
     <div id="News" class="tabcontent">
-        <h3>News</h3>
+        <h3>Drinks</h3>
         <p>We have drinks as well!</p>
     </div>
 
     <div id="Contact" class="tabcontent">
-        <h3>Contact</h3>
+        <h3>Chicken</h3>
         <p>We have chicken as well!</p>
     </div>
 
     <div id="About" class="tabcontent">
-        <h3>About</h3>
+        <h3>Rice</h3>
         <p>We serve Rice in our place!</p>
     </div>
+
 
     <script>
         function openPage(pageName,elmnt,color) {
@@ -156,11 +158,10 @@
             <h1 style="color: #F15A29;">Our happy customers</h1>
             <h3>George Richard</h3>
             <p class="recommend">Great food! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them :)</p><br>
-            <span id="custs" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <img id="picscusts" src="img\assets\customers\p1.png">
-            <img id="picscusts" src="img\assets\customers\p2.png">
-            <img id="picscusts" src="img\assets\customers\p3.png">
-            <span id="custs" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <img id="picscustsis" src="img\assets\customers\p1.png">
+            <img id="picscustses" src="img\assets\customers\p2.png">
+            <img id="picscustsas" src="img\assets\customers\p3.png">
+
         </div>
         <div class="col-lg-1"> <br><div class="vl"></div></div>
         <div class="col-lg-3">
@@ -174,8 +175,10 @@
 <div class="bottoms">
     <div class="content">
     <p class="content-p">Get our daily food items delivered to your mail</p><br>
+        <form id="subs">
         <input type="text" placeholder="Your email" class="place">
         <button type="submit" class="btn">Subscribe</button>
+        </form>
     </div>
 </div>
 <div class="lowest">
