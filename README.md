@@ -1,2 +1,2 @@
-# Anita-Projectsi
+# Anita-Project
 Anita's Kitchen
